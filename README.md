@@ -198,7 +198,7 @@ When the publisher grows new capabilities, prefer **parallel sibling packages** 
 ## 4. Next steps
 
 Concrete additions, ordered by what the in-flight music-video work
-(`bottle/`) and documentary work (`theres_is_no_homeless/`) need:
+(`bottle/`) and documentary work (`there_is_no_homeless/`) need:
 
 1. **`--publish-at` CLI flag.** The Python API already accepts `publish_at`
    for scheduled releases; the CLI doesn't expose it. Wire it through
