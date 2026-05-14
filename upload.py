@@ -65,7 +65,7 @@ def upload_video(video_path: str | Path,
         str(video_path),
         mimetype="video/mp4",
         resumable=True,
-        chunksize=10 * 1024 * 1024,
+        chunksize=4 * 1024 * 1024,
     )
 
     request = youtube.videos().insert(
